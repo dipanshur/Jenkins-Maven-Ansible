@@ -6,7 +6,7 @@
     tomcat_user: tomcat
     tomcat_group: tomcat
     war_file: my-webapp.war
-    war_deploy_dir: /usr/share/tomcat/webapps
+    war_deploy_dir: /usr/share/tomcat9/webapps
 
   tasks:  
     - name: Install Java and Tomcat9
