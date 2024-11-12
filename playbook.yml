@@ -3,7 +3,7 @@
   become: yes
   tasks: 
     - name: Create Docker Container
-      shell: docker run -d -p 8889:8080 dipanshur/tomcat-devops-0930
+      shell: docker run -d -p 8889:8080 dipanshur/tomcat-devops-0830
 
 
 # --- 
